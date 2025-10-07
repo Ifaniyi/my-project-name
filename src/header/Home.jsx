@@ -1,7 +1,7 @@
 export default function Home(){
     return(
-        <section className=" px-4 max-w-5xl mx-auto py-16 flex gap-22 justify-center items-center w-full h-auto top-[117px] relative">
-            <div>
+        <section className=" px-4 max-w-5xl mx-auto py-16 flex gap-23 justify-center items-center w-full h-auto hover:scale-150 ease-in-out duration-700">
+            <div className="">
 
             <div>
               <div className="flex flex-col mb-4 gap-4">  
@@ -9,7 +9,7 @@ export default function Home(){
                     <br /> 
                     <span className="text-slate-400 font-serif">Harvest Food Tomorrow </span>
                 </h2>
-                <p className="text- xl font-semibold text-gray-500 dark:text-gray">Join Lagos'trusted food savings platform and seccure your foodstuff at teh end of every cycle.</p>
+                <p className="text- xl font-semibold text-gray-500 dark:text-gray font-sans">Join Lagos'trusted food savings platform and seccure your foodstuff at teh end of every cycle.</p>
               </div>
             </div>
 
@@ -24,8 +24,8 @@ export default function Home(){
             </div>
 
             <div className="flex w-full h-full pl-6">
-                <div className="w-full h-full py-6 hover:scale-150 ease-in-out duration-700">
-                    <img src="/public/hero_img.png" alt="img" className="w-200 h-auto opacity-70 rounded-lg"  />
+                <div className="w-full h-full py-6 hover:scale-60 duration-700">
+                    <img src="/hero_img.png" alt="img" className="w-200 h-auto opacity-70 rounded-lg"  />
                 </div>
             </div>
 

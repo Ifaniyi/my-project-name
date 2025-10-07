@@ -52,7 +52,7 @@ export default function Howitwork () {
                
             </div>
             <div className="">
-                <img src="/public/hero_img.png" alt="img" className="w-200 h-auto opacity-70 rounded-lg"  />
+                <img src="/hero_img.png" alt="img" className="w-200 h-auto opacity-70 rounded-lg"  />
             </div>
             
         </section>
