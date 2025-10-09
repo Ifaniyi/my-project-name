@@ -1,4 +1,6 @@
-export default function(){
+import Plancard from "../ui/Plancard";
+
+export default function Plan(){
     return(
         <section className="px-4 max-w-5xl mx-auto py-16">
             <div>
@@ -8,6 +10,9 @@ export default function(){
                 <p className="text-center">
                     Choose the plan that fits your needs and start contributing to your food savings today!
                 </p>
+            </div>
+            <div>
+                <Plancard />
             </div>
         </section>
     )
