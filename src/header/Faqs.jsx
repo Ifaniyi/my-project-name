@@ -2,6 +2,8 @@ export default function Faqs (){
     return(
         <section className="px-4 max-w-5xl mx-auto py-16">
             <div className="">
+
+            <div className="">
                <h2 className="text-center mb-2 text-4xl text-bold font-serif italic">
                 Frequently Asked Questions
                 </h2>
@@ -10,18 +12,21 @@ export default function Faqs (){
                 </p>
             </div>
 
-            <div className="flex mt-8">
-                <div className="mt-3">
-                    <h4 className="text-2xl">Went</h4>
-                    <h3 className="">How does HarvestPay?</h3>
-                    <p className="text-gray-600">Member contribute money regularly and receive foodstuff worth their total savins.</p>
-                    <h3 className="">How do i start contributing?</h3>
-                    <p className="">Simply sign up, choose a plan, and begin</p>
+            <div className="flex mt-8 justify-between gap-10 flex-col md:flex-row px-42">
+                <div className="mt-3 items-center">
+                    <h3 className="font-semibold mb-1">How does HarvestPay work?</h3>
+                    <p className="text-gray-600 text-lg font-mono">
+                        Member contribute money regularly and receive foodstuff worth their total savins.
+                    </p>
+                    <h3 className="font-semibold mb-1 mt-2">How do i start contributing?</h3>
+                    <p className="text-gray-600 text-lg font-mono">Simply sign up, choose a plan, and begin</p>
                 </div>
 
-                <div>
+                <div className="mt-3 items-center">
                     <img src="/public/howit.jpg" alt="" className="rounded-lg" />
                 </div>
+            </div>
+
             </div>
         </section>
     )
