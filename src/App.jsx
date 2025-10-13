@@ -6,7 +6,8 @@ import Howitwork from "./header/Howitwork.jsx";
 import Footer from "./components/Footer.jsx";
 import Plan from "./header/Plan.jsx";
 import Faqs from "./header/Faqs.jsx";
-
+import Learn from "./header/Learn.jsx";
+import Hero from "./components/Hero.jsx";
 
 export default function App () {
   return (
@@ -18,6 +19,8 @@ export default function App () {
         <Route path="/how" element={<Howitwork />} />
         <Route path="/plan" element={<Plan />} />
         <Route path="/faqs" element={<Faqs />} />
+        <Route path="/learn" element={<Learn />} />
+        <Route path="hero" element={<Hero />} />
       </Routes>
       <Footer />
     </div>

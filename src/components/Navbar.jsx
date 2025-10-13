@@ -11,7 +11,7 @@ export default function Navbar(){
                 </div>
                 <MobileNavbar />
                 <nav className="text-center mb-2 mt-3">
-                    <ul className="sm:hidden md:flex gap-14">
+                    <ul className="sm:hidden md:flex gap-14 cursor-pointer">
                         <li><a href="/" class="hover:text-[#1C7C54] transition">Home</a></li>
                         <li><a href="aboutus" class="hover:text-[#1C7C54] transition">About Us</a></li>
                         <li><a href="how" class="hover:text-[#1C7C54] transition">How It Works</a></li>
