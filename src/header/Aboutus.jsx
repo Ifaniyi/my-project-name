@@ -1,6 +1,6 @@
 export default function Aboutus (){
     return (
-        <section className="px-4 max-w-5xl mx-auto py-16">
+        <section className="px-4 max-w-5xl mx-auto py-16 min-h-screen pt-38">
             <div className="flex flex-col">
                 <div className="justify-center flex">
                     <h2 className="text-center mb-4 text-4xl text-bold font-serif italic">About Us</h2>

@@ -48,6 +48,14 @@ export default function Benefit(){
                     </div>
                 ))}
             </div>
+
+            {/* Div for Button */}
+            <div className="text-center mt-12">
+                <button className="bg-green-400 p-2 rounded-lg text-white-400 m-2 cursor-pointer hover:bg-green-600 hover:text-white transition-colors duration-300">
+                    <a href="/plan">Join HarvestPay</a>
+                </button>
+            </div>
+            
         </section>
     )
 }

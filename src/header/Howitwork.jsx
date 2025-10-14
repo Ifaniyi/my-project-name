@@ -3,7 +3,7 @@ import { UserRoundPlus, HandCoins, MonitorUp, Soup } from 'lucide-react';
 
 export default function Howitwork () {
     return (
-        <section className=" flex justify-center px-4 mx-auto py-16">
+        <section className=" flex justify-center px-4 mx-auto py-16 min-h-screen pt-38">
             <div className='max-w-150 h-vh flex flex-col justify-center'>
                 <div className="flex items-center justify-center">
                     <h2 className="font-bold text-5xl mb-8">How it works</h2>

@@ -1,6 +1,6 @@
 export default function Faqs (){
     return(
-        <section className="px-4 max-w-5xl mx-auto py-16">
+        <section className="px-4 max-w-5xl mx-auto py-16 min-h-screen pt-36">
             <div className="">
 
             <div className="">

@@ -8,6 +8,8 @@ import Plan from "./header/Plan.jsx";
 import Faqs from "./header/Faqs.jsx";
 import Learn from "./header/Learn.jsx";
 import Hero from "./components/Hero.jsx";
+// import Getstarted from "./header/Getstarted.jsx";
+import Signup from "./components/Signup.jsx";
 
 export default function App () {
   return (
@@ -21,6 +23,8 @@ export default function App () {
         <Route path="/faqs" element={<Faqs />} />
         <Route path="/learn" element={<Learn />} />
         <Route path="hero" element={<Hero />} />
+        {/* <Route path="sign" element={<Getstarted />} /> */}
+        <Route path="signup" element={<Signup />} />
       </Routes>
       <Footer />
     </div>

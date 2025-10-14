@@ -2,7 +2,7 @@ import Hero from "../components/Hero"
 import Benefit from "../ui/Benefit"
 export default function Home(){
     return(
-        <section className=" ">
+        <section className="min-h-screen pt-20">
             <div className="px-4 max-w-5xl mx-auto py-16 flex gap-23 justify-center items-center w-full h-auto hover:scale-150 ease-in-out duration-500">
 
             <div className="">
@@ -21,7 +21,7 @@ export default function Home(){
 
             <div className="">
                 <button className="bg-green-400 p-2 rounded-lg text-white m-2">
-                    <a href="/getstarted">Get Started</a>
+                    <a href="/signup">Get Started</a>
                 </button>
                 <button className="bg-gray-100 p-2 rounded-lg text-gray-500 m-2">
                     <a href="/learn">Learn More</a>

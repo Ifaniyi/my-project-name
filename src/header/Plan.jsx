@@ -2,7 +2,7 @@ import Plancard from "../ui/Plancard";
 
 export default function Plan(){
     return(
-        <section className="px-4 max-w-5xl mx-auto py-16">
+        <section className="px-4 max-w-5xl mx-auto py-16 min-h-screen pt-38">
             <div>
                 <h2 className="text-center mb-2 text-4xl text-bold font-serif italic">
                     Our Plan

@@ -4,7 +4,7 @@ import MobileNavbar from "./MobileNavbar";
 
 export default function Navbar(){
     return(
-        <div className="bg-[#0F2E2E] p-4 rounded">
+        <div className="bg-[#0F2E2E] p-4 rounded fixed w-full z-10 top-0 left-0 right-0">
             <div className="flex flex-row shadow text-xl m-1 mb-1 mt-1 rounded rounded-xl bg-white justify-between">
                 <div className="pl-2 mb-1 mt-1">
                     <Logo />
