@@ -14,7 +14,7 @@ export default function Home(){
                     <span className="text-slate-400 font-serif">Harvest Food Tomorrow </span>
                 </h2>
                 <p className="text- xl font-semibold text-gray-500 dark:text-gray font-sans">
-                    Join Lagos'trusted food savings platform and secure your foodstuff at the end of every cycle.
+                    Join Lagos trusted food savings platform and secure your foodstuff at the end of every cycle.
                 </p>
               </div>
             </div>

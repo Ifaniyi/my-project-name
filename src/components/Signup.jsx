@@ -17,7 +17,7 @@ export default function Signup(){
                     <input type="password" placeholder="Password" className="p-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"/>    
                     <input type="username" placeholder="Username" className="p-2 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-400"/>    
                     <button type="submit" className="bg-green-400 p-2 rounded-lg text-white m-2 cursor-pointer hover:bg-green-600 hover:text-white transition-colors duration-300">Sign Up</button>
-                    <p className="">Already have am account! 
+                    <p className="">Already have an account! 
                         <span className="text-green-300"> Login here</span>
                     </p>
                 </form>
